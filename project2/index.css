@@ -1,0 +1,481 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+
+body{
+    background-color: black;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-top: 5rem;
+    align-items: center;
+    font-weight: bold;
+}
+.copy{
+    width: 40%;
+}
+
+.button{
+    width: 10rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.get{
+    font-weight: bold;
+    font-size: 60px;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4rem;
+}
+.set1{
+    text-align: center;
+    width: 20%;
+    margin-bottom: 2rem;
+    border: 2px solid white;
+    padding: 1rem;
+    padding-right: 2rem;
+    border-radius: 4px;
+
+}
+
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.note{
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cord{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.jet1 a{
+    text-decoration: none;
+    color: white;
+    
+    font-weight: bold;
+}
+.jet1 a:hover{
+    color: red !important;
+    text-decoration: underline !important;
+    text-decoration-color: red !important;
+
+}
+
+.mobile{
+    z-index: 20;
+    /* margin-left: 7rem; */
+}
+
+.content3{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-image: url(./media/Group11png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -4rem;
+    margin-right: 10rem;
+    padding-bottom: 4rem;
+}
+
+.create{
+    font-size: 40px;
+}
+
+
+.carousel{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    margin-right: 10rem;
+    margin-left: 6rem;
+}
+.carousel-inner{
+    width: 80%;
+    margin: 4rem;
+    margin-right: 4rem;
+    color: rgb(52, 32, 32);
+    justify-content: center;
+
+
+}
+
+.carousel-caption{
+    margin-top: 5rem !important;
+    z-index: 1 !important;
+    color: white;
+    
+}
+
+
+.def{
+    text-align: center;
+
+}
+
+.hair{
+    margin-bottom: 15rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2 !important;
+}
+
+.img-tie{
+    border-radius: 50%;
+    text-align: center !important;
+    
+    
+}
+
+.carry{
+    background-color: rgb(8, 6, 6);
+    border-radius: 20px 20px;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+ 
+
+}
+
+
+@media (max-width:768px) and (min-width:425px){
+
+    body{
+        /* margin: 2rem; */
+    }
+    .top{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem;
+        text-align: center;
+    }
+    .content{
+        margin:1rem;
+    }
+    .copy{
+        width: 100%;
+        
+    }
+    .pic{
+        display: none;
+    }
+
+    .set1{
+        width: 40%;
+        padding: 1rem;
+        /* text-align: left; */
+    }
+
+    .content2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        background-image: none;
+        margin-top: 2rem;
+        margin-right: 0rem;
+        padding-bottom: 4rem;
+    }
+
+    .carousel{
+        margin-top: 0rem;
+        width: 100%;
+        background-size: cover;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .carousel-inner{
+        width: 100%;
+        margin: 4rem;
+        margin-right: 4rem;
+        color: rgb(52, 32, 32);
+        justify-content: center;
+    
+    
+    }
+    .def{
+        text-align: center;
+        width: 100%;
+    
+    }
+    
+    .hair{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    
+    }
+    
+    .img-tie{
+        border-radius: 50%;
+        text-align: center !important;
+        
+        
+    }
+    .carousel-caption{
+        margin-top: 5rem !important;
+        z-index: 1 !important;
+        color: white;
+        
+    }
+    
+    .carry{
+        background-color: rgb(45, 30, 30);
+        color: white;
+        /* padding-top: 13rem; */
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+     
+    
+    }
+    
+}
+
+
+@media (max-width:425px) {
+
+    .content{
+        justify-content: center;
+
+    }
+
+    .copy{
+        text-align: center;
+    }
+    .btnn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .set1{
+        width: auto;
+        padding: 2rem;
+    }
+
+    .pic{
+        display: none;
+    }
+
+    .content2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-inner{
+        width: 80%;
+        margin: 0%;
+        margin-right: 0%;
+        color: rgb(52, 32, 32);
+        justify-content: center;
+    }
+
+    .content3{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-image: none;
+        margin-top: 2rem;
+        margin-right: 0%;
+        padding-bottom: 4rem;
+    }
+    .def{
+        width: 100%;
+    }
+
+
+    .carousel{
+        margin-top: 5rem;
+        width: 100%;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    
+
+    .hair{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 13.5rem;
+    }
+    
+    
+    .carousel-caption{
+        margin-top: 5rem !important;
+        z-index: 1 !important;
+        color: white;
+        
+    }
+    .carry{
+        background-color: rgb(48, 25, 25) !important;
+        color: white !important;
+        text-align: left;
+        padding-top: 10rem;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+}
+
+.content4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    color: white;
+}
+.sub1{
+    /* width: 25rem; */
+    /* margin-left: 2rem; */
+}
+::placeholder {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#Names,
+#Phones,
+#Emails,
+#texts {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 28rem;
+    border-bottom: 3px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.send{
+    width: 10rem;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.send a{
+    text-decoration: none;
+    color: white;
+}
+.sub2{
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    width: 22%;
+}
+.contact{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sub3{
+    background-image: url(./media/Group\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-left:2rem ;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2px;
+
+}
+.mapp{
+    /* margin-left: 2rem; */
+    margin-right: -2px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+@media (max-width:768px) {
+
+    .top{
+        width: 100%;
+    }
+    .copy{
+        width: 100%;
+    }
+    .note{
+        width: 90%;
+    }
+
+    .content3{
+        justify-content: center;
+    }
+    .content4{
+        justify-content: center;
+    }
+    .sub1{
+        width:auto;margin-left: 2rem;
+        width: 100%;
+    }
+    .leave{
+        /* text-align: center; */
+        width: 80%;
+    }
+    #Names,
+    #Phones,
+    #Emails,
+    #texts {
+        width: 20rem;
+    }
+    .sub2{
+        width: 100%;
+    }
+    .sub3{
+        width: auto;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+    .bottom{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    #logo,.end,.middle{
+        margin-right: 2rem;
+    }
+}
